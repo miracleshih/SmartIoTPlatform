@@ -3,7 +3,7 @@
     SmartIoTPlatform is a new project which I designed SmartIoTPlatform for hug, distribute data process system. Be aware
 that I just develop this platform for 1 month and many things are not ready. If you are looking for a suitable system to
 collect data from equipment, you are welcome to use this source code and contribute your knowledge in this platform. Hope
-this platform can help manufacture and become a standard in the future.
+that this platform can help manufacture and become a standard in the future.
 
 [Reason to use SmartIoTPlatform]
     SmartIoTPlatform designed for high speed/reliable data exchange mechanism using MSMQ. You can create services
