@@ -30,16 +30,11 @@ image or files. So it create many possibility:
     The data exchange layer is Microsoft message queue (MSMQ). It is allow to change to other message queue like RabbitMQ,
 ActiveMQ etc. but not implement yet and need your contribution.
 
-    Some reason to use MSMQ in this moment that the queue security can manage with AD. The system provide some queue
-read/write protection and it reduce your effort to manage the queues user profile. Some hug organization and a lot of
-EAP(equipment access program) computers. For manager view, some loading can balance with IT role.
+    Some reason to use MSMQ in this moment that the queue security can manage with AD. The system provide some queue read/write protection and it reduce your effort to manage the queues user profile. Some hug organization and a lot of EAP(equipment access program) computers. For manager view, some loading can balance with IT role.
 
-    If you have concern to develop services with multi-OS (like linux) or multi-language like Java, Python, GoLang...,
-I will suggest to change the MSMQ to other MQ. But in this moment, I am sorry that due to my job, I don't have too much
-resource to do it now.
+    If you have concern to develop services with multi-OS (like linux) or multi-language like Java, Python, GoLang..., I will suggest to change the MSMQ to other MQ. But in this moment, I am sorry that due to my job, I don't have too much resource to do it now.
 
-    Be aware that each MSMQ packet has 4MB limitation. RabbitMQ packet size limitation is 128MB. Before you select MQ
-system, please check the MQ limitation.
+    Be aware that each MSMQ packet has 4MB limitation. RabbitMQ packet size limitation is 128MB. Before you select MQ system, please check the MQ limitation.
 
 
 
