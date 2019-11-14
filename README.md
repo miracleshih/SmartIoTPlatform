@@ -1,7 +1,7 @@
 # SmartIoTPlatform
 [Before]
     SmartIoTPlatform is a new project which I designed SmartIoTPlatform for hug, distribute data process system. Be aware
-that I just develop this platform for 1 month and many things are not ready. If you are looking for a suitable system to
+that I just developed this platform and many modules are not fully ready. If you are looking for a suitable system to
 collect data from equipment, you are welcome to use this source code and contribute your knowledge in this platform. Hope
 that this platform can help manufacture and become a standard in the future.
 
@@ -29,12 +29,15 @@ image or files. So it create many possibility:
 [Data exchange layer]
     The data exchange layer is Microsoft message queue (MSMQ). It is allow to change to other message queue like RabbitMQ,
 ActiveMQ etc. but not implement yet and need your contribution.
+
     Some reason to use MSMQ in this moment that the queue security can manage with AD. The system provide some queue
 read/write protection and it reduce your effort to manage the queues user profile. Some hug organization and a lot of
 EAP(equipment access program) computers. For manager view, some loading can balance with IT role.
+
     If you have concern to develop services with multi-OS (like linux) or multi-language like Java, Python, GoLang...,
 I will suggest to change the MSMQ to other MQ. But in this moment, I am sorry that due to my job, I don't have too much
 resource to do it now.
+
     Be aware that each MSMQ packet has 4MB limitation. RabbitMQ packet size limitation is 128MB. Before you select MQ
 system, please check the MQ limitation.
 
