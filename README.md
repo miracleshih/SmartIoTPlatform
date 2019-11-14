@@ -1,6 +1,6 @@
 # SmartIoTPlatform
 [Before]
-* SmartIoTPlatform is a new project which I designed SmartIoTPlatform for hug, distribute data process system. Be aware that I just developed this platform and many modules are not fully ready. If you are looking for a suitable system to collect data from equipment, you are welcome to use this source code and contribute your knowledge in this platform. Hope that this platform can help manufacture and become a standard in the future.
+* SmartIoTPlatform is a new project which I designed SmartIoTPlatform for hug, distribute data process system. Be aware that I just developed this platform and many modules are not fully ready. If you are looking for a suitable system to collect data from equipment, you are welcome to use source code and contribute your knowledge in this platform. I hope that this platform can help manufacture and become a standard in the future.
 
 [Reason to use SmartIoTPlatform]
 * SmartIoTPlatform designed for high speed/reliable data exchange mechanism using MSMQ. You can create services to process IoT collect data. And data is easily to be accessed by service. SmartIoTPlatform provide the best platform to integrate data and service for IoT platform.
@@ -21,5 +21,6 @@
 * Be aware that each MSMQ packet has 4MB limitation. RabbitMQ packet size limitation is 128MB. Before you select MQ system, please check the MQ limitation.
 
 
-
+Miracle Shih
+miracle.shih@gmail.com
 
