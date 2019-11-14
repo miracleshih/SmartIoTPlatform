@@ -1,12 +1,12 @@
 # SmartIoTPlatform
 [Before]
-    SmartIoTPlatform is a new project which I designed SmartIoTPlatform for hug, distribute data process system. Be aware that I just developed this platform and many modules are not fully ready. If you are looking for a suitable system to collect data from equipment, you are welcome to use this source code and contribute your knowledge in this platform. Hope that this platform can help manufacture and become a standard in the future.
+* SmartIoTPlatform is a new project which I designed SmartIoTPlatform for hug, distribute data process system. Be aware that I just developed this platform and many modules are not fully ready. If you are looking for a suitable system to collect data from equipment, you are welcome to use this source code and contribute your knowledge in this platform. Hope that this platform can help manufacture and become a standard in the future.
 
 [Reason to use SmartIoTPlatform]
-    SmartIoTPlatform designed for high speed/reliable data exchange mechanism using MSMQ. You can create services to process IoT collect data. And data is easily to be accessed by service. SmartIoTPlatform provide the best platform to integrate data and service for IoT platform.
+* SmartIoTPlatform designed for high speed/reliable data exchange mechanism using MSMQ. You can create services to process IoT collect data. And data is easily to be accessed by service. SmartIoTPlatform provide the best platform to integrate data and service for IoT platform.
 
 [Best practice in manufacture]
-    SmartIoTPlatform is suitable to 365-24 equipment operation. The reason is after equipment's data send to SmartIoTPlatform, data can be transferred, duplicated, merged in this platform. It won't impact the equipment data collect, so it reduce the risk if data processing is changed in production line.
+* SmartIoTPlatform is suitable to 365-24 equipment operation. The reason is after equipment's data send to SmartIoTPlatform, data can be transferred, duplicated, merged in this platform. It won't impact the equipment data collect, so it reduce the risk if data processing is changed in production line.
 
 [Rich data type support]
     Most of PLCs use tag data, the data type is limited with some primary type. MQ allow you to transfer raw data, image or files. So it create many possibility:
